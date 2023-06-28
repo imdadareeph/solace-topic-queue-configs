@@ -1,0 +1,17 @@
+solace:
+  host: tcp://localhost:55554
+  username: admin
+  password: admin
+  vpnName: default
+  queues:
+    - name: queue1
+      topics:
+        - topic1
+        - topic2
+    - name: queue2
+      topics:
+        - topic3
+        - topic4
+    - name: queue3
+      topics:
+        - topic5
