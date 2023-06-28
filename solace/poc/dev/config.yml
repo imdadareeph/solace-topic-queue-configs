@@ -1,5 +1,5 @@
 solace:
-  host: tcp://localhost:55555
+  host: tcp://localhost:55554
   username: admin
   password: admin
   vpnName: default
