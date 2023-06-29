@@ -18,3 +18,8 @@ solace:
 autorefresh:
   enabled: true
   cronexpression: 0/10 0 0 ? * * *
+
+gitdetails:
+  branch: master
+  version: v1
+  
