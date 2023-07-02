@@ -4,14 +4,14 @@ solace:
   password: admin
   vpnName: default
   queues:
-    - name: queue1
+    - name: ORDER_CREATED
       topics:
-        - topic1
-        - topic2
-    - name: queue2
+        - orderservice/failed/v1/created
+        - orderservice/success/v1/completed
+    - name: PAYMENT_COMPLETED
       topics:
-        - topic3
+        - paymentservice/success/v1/completed
         - topic4
-    - name: queue3
+    - name: CART_CREATED
       topics:
-        - topic5
+        - cartservice/success/v1/created
