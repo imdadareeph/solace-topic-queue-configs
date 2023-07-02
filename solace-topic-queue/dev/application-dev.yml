@@ -15,6 +15,7 @@ solace:
     - name: queue3
       topics:
         - topic5
+
 autorefresh:
   enabled: true
   cronexpression: 0/10 0 0 ? * * *
